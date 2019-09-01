@@ -1,2 +1,3 @@
-# microjs
-a lite framework for building firebase powered frontend
+# ``microjs``
+
+a lite framework for building firebase data powered components
