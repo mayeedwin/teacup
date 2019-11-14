@@ -1,3 +1,4 @@
-# ``microjs``
+## ``microjs``
 
-A micro framework for building firebase data powered components
+A `micro framework` for building firebase `cloud firestore` data powered components
+and other firebase integrations.
