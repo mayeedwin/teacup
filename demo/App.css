@@ -1,0 +1,43 @@
+body {
+  background-color: #fafafa;
+  font-family: 'Roboto', sans-serif;
+  margin: 1.5em;
+}
+
+main {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+.greetings {
+  font-weight: bold;
+}
+
+ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 5px;
+  padding: 7px;
+}
+
+li > span {
+  background-color: pink;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px;
+  text-align: center;
+}
