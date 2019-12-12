@@ -17,6 +17,7 @@ db.collection("collection").where("condition", "==", true)
         });
     })
     .catch((error) => {
+        // do something with the error
         console.log("Error getting documents: ", error);
     });
 
