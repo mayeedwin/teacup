@@ -1,11 +1,11 @@
 // rendering components
 const Render = (doc) => {
    // add the render components
-   // to get a particular value of a document, use "doc.data(value)"  
+   // to get a particular value of a document, use "doc.data().value"  
 }
 
 // get firestore documents 
-db.collection("collection").where("condition", "==", true)
+db.collection("collection")
     .get()
     .then((querySnapshot) => {
 
