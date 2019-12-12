@@ -1,6 +1,6 @@
 // rendering components
 const Render = doc => {
-  // add the render components
+  // add the render components or could import a render component
   // to get a particular value of a document, use "doc.data().value"
 };
 
