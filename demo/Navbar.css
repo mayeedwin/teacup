@@ -1,0 +1,50 @@
+.bottom-nav {
+  height: 50px;
+  overflow: hidden;
+  bottom: 0;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  transition: all 0.3s ease 0s;
+  font-size: 0.9em;
+}
+.bottom-nav nav {
+  z-index: 1000;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: #222;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+.bottom-nav nav i {
+  width: 1px;
+  height: 1px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: -webkit-transform 350ms;
+  transition: transform 350ms;
+  transition: transform 350ms, -webkit-transform 350ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-animation: pulse 1500ms forwards infinite;
+  animation: pulse 1500ms forwards infinite;
+}
+.bottom-nav .rich-area {
+  opacity: 0;
+  height: calc(100% - 48px);
+  color: #222;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  padding: 2em;
+}
