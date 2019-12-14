@@ -1,5 +1,5 @@
 import { abbreviateRating } from "./modules/Rating.js";
-import { getDate } from "./modules/Date.js";
+// import { getDate } from "./modules/Date.js";
 // import { Test } from "./modules/components/Test.js";
 
 const list = document.querySelector(".list");
@@ -29,7 +29,7 @@ const Render = (doc) => {
 
   // on clicking meal, display meal price
   meal.addEventListener("click", event => {
-    rating.innerHTML = `<i class="fas fa-dollar-sign"></i> ${doc.data().price}`;
+    rating.innerHTML = `<b>ksh</b> ${doc.data().price}`;
   });
 
   // append elements
@@ -45,7 +45,7 @@ db.collection("meals")
   .then(querySnapshot => {
     // loop through each document
     querySnapshot.forEach(doc => {
-      // call the "Render" function and pass "doc" as the parameter
+      // call the "Render" function and pass "doc" as the argument
       Render(doc);
     });
   })
@@ -54,11 +54,11 @@ db.collection("meals")
     console.log("Error getting documents: ", error);
   });
 
-// get date
+/* get date
 let date = document.querySelector(".date");
 
 // call the date function
 setInterval(() => {
   // run every 1 second
   date.innerText = getDate();
-}, 1000);
+}, 1000); */

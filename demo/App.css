@@ -1,13 +1,14 @@
 body {
-  background-color: #fafafa;
-  font-family: 'Roboto', sans-serif;
+  background-color:#fafafa;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.05em;
   margin: 1em;
   user-select: none;
 }
 
-main, header {
+main,
+header {
   margin: 0 auto;
   max-width: 500px;
 }
@@ -46,7 +47,6 @@ h1 {
   border-radius: 5px;
   padding: 5px;
   margin: 2px;
-  text-align:center;
 }
 
 .list-header {
@@ -72,6 +72,8 @@ h1 {
   text-align: right;
 }
 
-.date {
+.date,
+.greetings,
+.guide {
   margin-left: 9px;
 }

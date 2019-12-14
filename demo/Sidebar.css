@@ -1,5 +1,6 @@
 .jenga-sidebar {
-  background-color: #f8f9fa;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+ /* background-color: #f8f9fa; */
   bottom: 0;
   height: 60px;
   left: 0;
@@ -37,7 +38,7 @@
   font-weight: 400;
   -ms-flex-align: center;
   align-items: center;
-  color: #616161;
+  color: #222;
   cursor: pointer;
   display: -ms-flexbox;
   display: flex;
@@ -84,7 +85,7 @@
 }
 
 a:hover {
-  color: rgb(78, 105, 228) !important;
+ color: rgb(78, 105, 228) !important;
 }
 
 .navListItem[selected="true"] > a > i,
@@ -107,6 +108,9 @@ a:hover {
 @media screen and (min-width: 600px) {
   .navListItemLabel {
     margin-top: 11px;
+  }
+  a:hover {
+    background: transparent;
   }
 }
 
