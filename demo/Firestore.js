@@ -1,6 +1,6 @@
 // Your web app's Firebase configuration
 let firebaseConfig = {
- // apiKey: "**************",
+  apiKey: "AIzaSyC3KwdCfs8VQymR-bEucUUB-3jdKvxddzE",
   authDomain: "teacupapp.firebaseapp.com",
   databaseURL: "https://teacupapp.firebaseio.com",
   projectId: "teacupapp"

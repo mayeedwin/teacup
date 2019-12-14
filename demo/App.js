@@ -1,10 +1,12 @@
 import { abbreviateRating } from "./modules/Rating.js";
-// import { slideUp } from "./modules/Navbar.js";
+import { getDate } from "./modules/Date.js";
+// import { Test } from "./modules/components/Test.js";
 
 const list = document.querySelector(".list");
 
 // rendering components
-const Render = doc => {
+const Render = (doc) => {
+  // Test(doc);
   // add the render components
   // to get a particular value of a document, use "doc.data().value"
   let meal = document.createElement("li");
@@ -51,3 +53,12 @@ db.collection("meals")
     // do something with the error
     console.log("Error getting documents: ", error);
   });
+
+// get date
+let date = document.querySelector(".date");
+
+// call the date function
+setInterval(() => {
+  // run every 1 second
+  date.innerText = getDate();
+}, 1000);
