@@ -8,6 +8,7 @@
 
     <link href="./App.css" rel="stylesheet" />
     <link href="./Navbar.css" rel="stylesheet" />
+    <link href="./Sidebar.css" rel="stylesheet" />
 
     <link
       rel="stylesheet"
@@ -22,12 +23,13 @@
       <p class="greetings">
         Jambo 👋, karibu!
       </p>
-      <h1>
+      <h1 class="test">
         Kenyan Meals!
       </h1>
     </header>
     <main>
       <p>Select a meal to view its <b>pricing</b></p>
+      <small class="date"></small>
       <ul class="list">
         <li class="list-header">
           <span class="name">
@@ -46,24 +48,53 @@
           </nav>
           <div class="rich-area">
             <h2>
-              About Kenyan meals
+              About Kenyan Meals
             </h2>
             <p>
               <b>Staples</b> are maize and other cereals depending on the
-              region, including millet and sorghum eaten with various meats and
-              vegetables. The foods that are universally eaten in Kenya are
-              <b>ugali</b>, <b>sukuma wiki</b>, <b>chapati</b>, <b>pilau</b> and
-              <b>nyama choma</b>. Kenya's coastal cuisine is unique and highly
-              regarded throughout the country.
+              region, including <b>millet and sorghum</b> eaten with various
+              meats and vegetables. The foods that are universally eaten in
+              Kenya are <b>ugali</b>, <b>sukuma wiki</b>, <b>chapati</b>,
+              <b>pilau</b> and <b>nyama choma</b>. Kenya's coastal cuisine is
+              unique and highly regarded throughout the country.
             </p>
-            
-            <small>
-              An excerpt from <b>Wikipedia</b>
-            </small>
+
+            <small> An excerpt from <b>Wikipedia</b> </small>
           </div>
         </div>
       </section>
     </main>
+
+    <!-- sidebar -->
+    <div class="jenga-sidebar">
+      <ul class="navList reset">
+        <li class="navListItem" selected="false">
+          <span class="">
+            <a class="" href="./" native="false" aria-label="About">
+              <i class="fab fa-opencart fa-2x"></i>
+              <span class="navListItemLabel">Order</span>
+            </a>
+          </span>
+        </li>
+        <li class="navListItem" selected="true">
+          <span class="">
+            <a class="" href="./" native="false" aria-label="Schedule">
+              <i class="far fa-heart fa-2x"></i>
+              <span class="navListItemLabel">Like</span>
+            </a>
+          </span>
+        </li>
+        <li class="navListItem" selected="false">
+          <span class="">
+            <a class="" href="./" native="false" aria-label="Updates">
+              <i class="fas fa-search-location fa-2x"></i>
+              <span class="navListItemLabel">Chop</span>
+            </a>
+          </span>
+        </li>
+      </ul>
+    </div>
+
     <footer></footer>
     <script
       defer

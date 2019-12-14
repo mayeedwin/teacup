@@ -1,6 +1,7 @@
 // rendering components
-const Render = doc => {
-  // add the render components or could import a render component
+const Render = (doc) => {
+  /* add the render components or could import a render functional 
+  component and pass "doc as the parameter" */
   // to get a particular value of a document, use "doc.data().value"
 };
 

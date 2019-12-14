@@ -1,8 +1,10 @@
 {
   "dependencies": {
-    "firebase-tools": "^5.1.1"
+    "firebase-tools": "^7.10.0",
+    "jest": "^25.0.0"
   },
   "scripts": {
     "start": "ws --port 3000 --log.format combined --directory . --blacklist '/.env' '/.data' '/.git'"
-  }
+  },
+  "license": "MIT"
 }
