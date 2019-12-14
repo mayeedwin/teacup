@@ -1,17 +1,17 @@
 // rendering components
-const Render = (doc) => {
+const Render = doc => {
   /* add the render components or could import a render functional 
-  component and pass "doc as the parameter" */
+  component and pass "doc as the argument" */
   // to get a particular value of a document, use "doc.data().value"
 };
 
-// get firestore documents
+// get all firestore documents
 db.collection("collection")
   .get()
   .then(querySnapshot => {
     // loop through each document
     querySnapshot.forEach(doc => {
-      // call the "Render" function and pass "doc" as the parameter
+      // call the "Render" function and pass "doc" as the argument
       Render(doc);
     });
   })
