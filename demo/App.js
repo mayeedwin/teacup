@@ -1,41 +1,15 @@
-import { abbreviateRating } from "./modules/Rating.js";
+import { Meals } from "./modules/components/Meals.js";
 // import { getDate } from "./modules/Date.js";
 // import { Test } from "./modules/components/Test.js";
 
 const list = document.querySelector(".list");
 
 // rendering components
-const Render = (doc) => {
-  // Test(doc);
+const Render = doc => {
   // add the render components
   // to get a particular value of a document, use "doc.data().value"
-  let meal = document.createElement("li");
-  let name = document.createElement("span");
-  let rating = document.createElement("span");
-
-  // set data-id attribute
-  meal.setAttribute("data-id", doc.id);
-  meal.setAttribute("class", "meal");
-  name.setAttribute("class", "name");
-  rating.setAttribute("class", "rating");
-
-  // redefine rating value and abbreviate
-  let rateValue = doc.data().rating;
-  let newRating = abbreviateRating(rateValue);
-
-  // set inner text
-  name.innerHTML = `${doc.data().name}`;
-  rating.innerHTML = `<i class="far fa-heart"></i> ${newRating}`;
-
-  // on clicking meal, display meal price
-  meal.addEventListener("click", event => {
-    rating.innerHTML = `<b>ksh</b> ${doc.data().price}`;
-  });
-
-  // append elements
-  meal.appendChild(name);
-  meal.appendChild(rating);
-  list.appendChild(meal);
+  // Test(doc);
+  Meals(doc);
 };
 
 // get firestore documents

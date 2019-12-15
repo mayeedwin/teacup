@@ -1,5 +1,5 @@
 body {
-  background-color:#fafafa;
+  background-color: #fafafa;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.05em;
@@ -76,4 +76,18 @@ h1 {
 .greetings,
 .guide {
   margin-left: 9px;
+}
+
+.order {
+  border: 1px solid #222;
+  text-align: center;
+}
+
+.order:hover {
+  color: #fff;
+  background-color: #2EE59D;
+  border: none;
+  box-shadow: 0px 10px 15px rgba(46, 229, 157, 0.4);
+  font-weight: bold;
+  padding: inherit;
 }
