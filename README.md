@@ -1,10 +1,6 @@
----
- Teacupjs, a Firebase Cloud Firestore framework
----
+## Teacupjs, a Firebase Cloud Firestore framework
 
----
-  Author : [Maye Edwin](https://twitter.com/mayeedwin1)
----
+### Author : [Maye Edwin](https://twitter.com/mayeedwin1)
 
 A **Micro-framework** for building Firebase `Cloud Firestore` data powered components
 including other Firebase integrations such `firebase cloud messaging, authentication, functions, storage e.t.c`.
