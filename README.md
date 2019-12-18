@@ -1,7 +1,13 @@
-# (◠‿◕) Teacupjs, a firebase cloud firestore framework
+---
+ Teacupjs, a Firebase Cloud Firestore framework
+---
 
-A `micro-framework` for building firebase `cloud firestore` data powered components
-including other firebase integrations such `firebase cloud messaging, authentication, functions, storage e.t.c`.
+---
+  Author : [Maye Edwin](https://twitter.com/mayeedwin1)
+---
+
+A **Micro-framework** for building Firebase `Cloud Firestore` data powered components
+including other Firebase integrations such `firebase cloud messaging, authentication, functions, storage e.t.c`.
 
 ## View demo app ◉‿◉
 
@@ -27,6 +33,18 @@ const db = firebase.firestore();
 
 ## Style guide ◉‿◉
 
-- es6 syntax
+- Component based syntax with es6 modules!
 
-- vanilla JS
+- Use es6 syntax all through!
+
+- Vanilla JS, best of Loves!
+
+- Names of all Components files should start with a Uppercase letter
+
+- Functional Components recommended ( but Class components are okay too)
+
+- Use Function/Class expression syntax when defining a Function/Class
+
+- Single name Function name recommended. Should start with a lowercase letter.
+
+- All variables name should be lowercase or if in any case, double named, then; **typeSecond** format to be used.
