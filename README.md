@@ -2,6 +2,8 @@
 
 ### Author : [Maye Edwin](https://twitter.com/mayeedwin1)
 
+***"This is work in progress but you could play with it anytime"***
+
 A **Micro-framework** for building Firebase `Cloud Firestore` data powered components
 including other Firebase integrations such `firebase cloud messaging, authentication, functions, storage e.t.c`.
 
@@ -9,6 +11,8 @@ including other Firebase integrations such `firebase cloud messaging, authentica
 
 In the `./demo` directory, preview the demo app. The **Frontend** is being built using
 **mobile-first** approach; therefore the desktop roll-up is gonna be progressive!
+
+**So, using your favourite browser's dev tools, view the mobile version : )**
 
 ### Setting up
 
