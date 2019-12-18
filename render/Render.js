@@ -2,7 +2,9 @@
 const Render = doc => {
   /* add the render components or could import a render functional 
   component and pass "doc as the argument" */
-  // to get a particular value of a document, use "doc.data().value"
+  /* to get a particular value of a document, use "doc.data().value"
+  remember to set a "data-id" to "doc.id" attribute on the render component for each document
+  */
 };
 
 // get all firestore documents

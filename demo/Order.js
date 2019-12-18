@@ -1,7 +1,5 @@
-import { Meals } from "./modules/components/Meals.js";
 import { Orders } from "./modules/components/Orders.js";
 import { getDate } from "./modules/Date.js";
-import { Conditional } from "./modules/Conditional.js";
 // import { Test } from "./modules/components/Test.js";
 
 const list = document.querySelector(".list");
@@ -11,11 +9,7 @@ const Render = doc => {
   // add the render components
   // to get a particular value of a document, use "doc.data().value"
   // Test(doc);
-  Meals(doc);
   Orders(doc);
-
-  // conditional rendering
-  Conditional();
 };
 
 // get firestore documents
