@@ -1,6 +1,6 @@
 import { abbreviateRating } from "../Rating.js";
 
-const list = document.querySelector(".list");
+const list = document.querySelector(".meal-list");
 
 // create meals component
 export const Meals = doc => {

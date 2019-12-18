@@ -1,4 +1,4 @@
-const order = document.querySelector(".list");
+const order = document.querySelector(".order-list");
 
 // create meals component
 export const Orders = (doc) => {
@@ -15,7 +15,7 @@ export const Orders = (doc) => {
   
   // set inner text
   name.innerText = `${doc.data().name}`;
-  button.innerHTML = `<i class="fas fa-cart-plus"></i> Order Now`;
+  button.innerHTML = `<i class="fab fa-opencart"></i> Order Now`;
   
   // on clicking meal, display meal price
   button.addEventListener("click", event => {

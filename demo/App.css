@@ -1,14 +1,24 @@
 body {
   background-color: #fafafa;
   font-family: "Roboto", sans-serif;
+  margin: 0;
   line-height: 1.5;
   letter-spacing: 0.05em;
-  margin: 1em;
   user-select: none;
 }
 
-main,
 header {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 10px;
+}
+
+main, .greetings {
   margin: 0 auto;
   max-width: 500px;
 }
@@ -72,7 +82,6 @@ h1 {
   text-align: right;
 }
 
-.date,
 .greetings,
 .guide {
   margin-left: 9px;
@@ -90,4 +99,8 @@ h1 {
   box-shadow: 0px 10px 15px rgba(46, 229, 157, 0.4);
   font-weight: bold;
   padding: inherit;
+}
+
+.order-list {
+  display: none;
 }
