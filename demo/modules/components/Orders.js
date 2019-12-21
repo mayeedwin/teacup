@@ -23,13 +23,24 @@ export const Orders = doc => {
 
   // on clicking order, show popup to confirm
   button.addEventListener("click", event => {
-    let popup = confirm("Once you select Okay, your order will be placed and confirmed!");
-     if(popup) {
-        summary.innerHTML = Confirm(doc);
-        button.innerHTML = `<b>Ordered <i class="far fa-check-circle"></i></b>`;
-     } else {
-       button.innerHTML = `<b>Cancelled! <i class="fas fa-times"></i></b>`;
-     }
+    let popup = confirm(
+      "Once you select Okay, your order will be placed and confirmed!"
+    );
+    if (popup) {
+      // show order success alert
+      summary.style.display = "block";
+      summary.innerHTML = Confirm(doc);
+      button.innerHTML = `<b>Ordered <i class="far fa-check-circle"></i></b>`;
+      // set timer
+      setTimeout(() => {
+        // show sucess for 3seconds!
+        summary.style.display = "none";
+        // show order button
+        // mbutton.innerHTML = `<i class="fab fa-opencart"></i> Order Now`;
+      }, 10000);
+    } else {
+      button.innerHTML = `<b>Cancelled! <i class="fas fa-times"></i></b>`;
+    }
   });
 
   // append elements
