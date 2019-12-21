@@ -5,6 +5,7 @@ import { Conditional } from "./modules/Conditional.js";
 // import { Test } from "./modules/components/Test.js";
 
 const list = document.querySelector(".list");
+const confirm = document.querySelector(".add-confirm");
 
 // rendering components
 const Render = doc => {
