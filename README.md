@@ -10,7 +10,9 @@ including other Firebase integrations such `firebase cloud messaging, authentica
 ## View demo app ◉‿◉
 
 In the `./demo` directory, preview the demo app. The **Frontend** is being built using
-**mobile-first** approach; therefore the desktop roll-up is gonna be progressive!
+**mobile-first** approach; 
+
+     therefore the desktop roll-up is gonna be progressive and first preview is out!
 
 **So, using your favourite browser's dev tools, view the mobile version : )**
 
