@@ -4,6 +4,8 @@ import { getDate } from "./modules/Date.js";
 import { Conditional } from "./modules/Conditional.js";
 // import { Test } from "./modules/components/Test.js";
 
+// Chop();
+
 const list = document.querySelector(".list");
 const confirm = document.querySelector(".add-confirm");
 
