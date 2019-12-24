@@ -37,9 +37,9 @@ export const Orders = doc => {
         summary.style.display = "none";
         // show order button
         // mbutton.innerHTML = `<i class="fab fa-opencart"></i> Order Now`;
-      }, 10000);
+      }, 5000);
     } else {
-      button.innerHTML = `<b>Cancelled! <i class="fas fa-times"></i></b>`;
+      button.innerHTML = `<b>Cancelled <i class="fas fa-times"></i></b>`;
     }
   });
 

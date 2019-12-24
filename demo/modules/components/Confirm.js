@@ -3,8 +3,7 @@ export const Confirm = doc => {
     <div class="confirm">
           <p>
             <b><i class="far fa-check-circle"></i></b>
-              Your order for <b> ${doc.data().name}</b>, 
-              total price <b>ksh.${doc.data().price}</b> successful!
+              Your order for <b>${doc.data().name}</b>, total price <b>ksh.${doc.data().price}</b> successful!
           </p>
           <!--
             <div class="spans">

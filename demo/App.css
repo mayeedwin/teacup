@@ -128,7 +128,10 @@ h1 {
 }
 
 .confirm {
-  margin: 10px auto;
+  margin-bottom: 70px;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
   max-width: 500px;
   cursor: default;
   background-color: var(--mark-green);
