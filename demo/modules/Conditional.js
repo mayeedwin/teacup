@@ -11,6 +11,7 @@ export const Conditional = () => {
     mealList.style.display = "none";
     orderList.style.display = "block";
     likesBtn.setAttribute("selected", "false");
+    orderBtn.setAttribute("selected", "true");
     guide.innerHTML = `Delivery done in <b>Kileleshwa</b> only!`;
   });
 };

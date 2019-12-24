@@ -9,7 +9,7 @@ export const Meals = doc => {
   const meal = document.createElement("li");
   const name = document.createElement("span");
   const rating = document.createElement("span");
-
+  
   // set data-id attribute
   meal.setAttribute("data-id", doc.id);
   meal.setAttribute("class", "meal");
