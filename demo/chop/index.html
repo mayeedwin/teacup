@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chop / Teacup App</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./App.css" rel="stylesheet" />
+    <link href="./Sidebar.css" rel="stylesheet" />
+    <link href="./Choppies.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+      integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <p class="greetings">
+        Jambo! Order Native Kenyan food!
+      </p>
+      <!-- <p class="test">Testing...</p> -->
+    </header>
+    <main>
+      <p class="guide">Looking for where to chop?</p>
+      <section>
+        <div class="container">
+          <ul class="acc">
+            <li>
+              <button class="acc_ctrl"><h2>Holden</h2></button>
+              <div class="acc_panel">
+                <p>
+                  GM Holden Ltd, commonly known as Holden, is an Australian
+                  automaker that operates in Australasia and is headquartered in
+                  Port Melbourne, Victoria. The company was founded in 1856 as a
+                  saddlery manufacturer in South Australia.
+                </p>
+              </div>
+            </li>
+            <li>
+              <button class="acc_ctrl"><h2>Ford</h2></button>
+              <div class="acc_panel">
+                <p>
+                  The Ford Motor Company (commonly referred to as simply Ford)
+                  is an American multinational automaker headquartered in
+                  Dearborn, Michigan, a suburb of Detroit. It was founded by
+                  Henry Ford and incorporated on June 16, 1903.
+                </p>
+              </div>
+            </li>
+            <li>
+              <button class="acc_ctrl"><h2>Toyota</h2></button>
+              <div class="acc_panel">
+                <p>
+                  Toyota Motor Corporation is a Japanese automotive manufacturer
+                  which was founded by Kiichiro Toyoda in 1937 as a spinoff from
+                  his father's company Toyota Industries, which is currently
+                  headquartered in Toyota, Aichi Prefecture, Japan.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- sidebar -->
+    <div class="jenga-sidebar">
+      <ul class="navList reset">
+        <li class="navListItem" selected="false">
+          <span class="">
+            <a class="" href="../" native="false" aria-label="About">
+              <i class="fab fa-opencart fa-2x"></i>
+              <span class="navListItemLabel">Order</span>
+            </a>
+          </span>
+        </li>
+        <li class="navListItem" selected="false">
+          <span class="">
+            <a class="" href="../" native="false" aria-label="Schedule">
+              <i class="far fa-heart fa-2x"></i>
+              <span class="navListItemLabel">Like</span>
+            </a>
+          </span>
+        </li>
+        <li class="navListItem" selected="true">
+          <span class="">
+            <a class="" href="./" native="false" aria-label="Updates">
+              <i class="fas fa-search-location fa-2x"></i>
+              <span class="navListItemLabel">Chop</span>
+            </a>
+          </span>
+        </li>
+      </ul>
+    </div>
+
+    <footer></footer>
+    <script
+      defer
+      src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"
+    ></script>
+    <script
+      defer
+      src="https://www.gstatic.com/firebasejs/7.5.2/firebase-firestore.js"
+    ></script>
+    <script defer src="./Firestore.js"></script>
+    <script defer type="module" src="./Choppies.js"></script>
+  </body>
+</html>
