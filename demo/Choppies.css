@@ -1,10 +1,25 @@
+button {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.title {
+  font-size: 20px;
+  text-align: left;
+}
+
+.desc {
+  font-size: 15px;
+  padding: 0 10px 0;
+}
+
 .container {
   max-width: 640px;
   margin: 0 auto;
 }
 
-.acc {
-  margin: 20px 0;
+.accordion {
+  margin: 25px 0 50px;
   overflow: hidden;
   padding: 0;
 }
@@ -17,11 +32,11 @@
 .acc_ctrl {
   background: #ffff;
   border: none;
-  border-bottom: solid 1px #F2F2F2;
+  border-bottom: solid 1.5px #F2F2F2;
   cursor: pointer;
   display: block;
   outline: none;
-  padding: 2em;
+  padding: 2.4em;
   position: relative;
   text-align: center;
   width: 100%;
@@ -30,7 +45,7 @@
 .acc_ctrl:before {
   background: #44596B;
   content: "";
-  height: 2px;
+  height: 2.5px;
   margin-right: 37px;
   position: absolute;
   right: 0;
@@ -51,7 +66,7 @@
 .acc_ctrl:after {
   background: #44596B;
   content: "";
-  height: 2px;
+  height: 2.5px;
   margin-right: 37px;
   position: absolute;
   right: 0;
@@ -73,7 +88,6 @@
 }
 
 .acc_panel {
-  padding: 10px;
   background: #F2F2F2;
   display: none;
   overflow: hidden;

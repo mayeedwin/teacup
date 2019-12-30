@@ -22,7 +22,10 @@ header {
   max-height: 35px;
   margin: 0 auto;
   padding: 10px;
+  position: sticky;
+  top: 0;
   text-align: center;
+  z-index: 1;
 }
 
 main {
