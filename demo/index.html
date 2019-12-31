@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script>
+      // Check that service workers are supported
+      if ("serviceWorker" in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("./service-worker.js");
+        });
+      }
+    </script>
     <title>Teacup App / Firebase Cloud Firestore by Maye</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <!-- start of Web Manifest -->
+    <link rel="manifest" href="./app.webmanifest" />
+    <meta name="theme-color" content="#222" />
     <link href="./App.css" rel="stylesheet" />
     <link href="./Navbar.css" rel="stylesheet" />
     <link href="./Sidebar.css" rel="stylesheet" />
@@ -24,7 +35,7 @@
       </p>
       <!-- <p class="test">Testing...</p> -->
     </header>
-    
+
     <main>
       <p class="guide">Select a meal to view its <b>pricing</b></p>
       <section>
@@ -72,12 +83,10 @@
             </span>
           </li>
         </ul>
-      
       </section>
 
       <!-- maye's confirm -->
       <section class="add-confirm"></section>
-      
     </main>
 
     <!-- sidebar -->
