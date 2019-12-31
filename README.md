@@ -43,11 +43,9 @@ Here, you'll need to manually add demo data in Cloud Firestore for your Project 
 Firebase console; In a **meals** collection with each document having an automatic ID generated and fields should be as shown below!
 
 ```bash
-   
    name : string
    price : number
    rating : number
-
 ```
 
 ## Style guide ◉‿◉

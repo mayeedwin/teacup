@@ -5,9 +5,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="./App.css" rel="stylesheet" />
-    <link href="./Sidebar.css" rel="stylesheet" />
-    <link href="./Choppies.css" rel="stylesheet" />
+    <!-- start of Web Manifest -->
+    <link rel="manifest" href="../app.webmanifest" />
+    <meta name="theme-color" content="#222" />
+    <link href="../App.css" rel="stylesheet" />
+    <link href="../Sidebar.css" rel="stylesheet" />
+    <link href="../Choppies.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
@@ -27,12 +30,9 @@
       <p class="guide">Pickup point is at <b>Yaya Centre</b> only!</p>
       <section>
         <div class="container">
-          <ul class="accordion">
-            
-          </ul>
+          <ul class="accordion"></ul>
         </div>
       </section>
-
     </main>
 
     <!-- sidebar -->
@@ -74,7 +74,7 @@
       defer
       src="https://www.gstatic.com/firebasejs/7.5.2/firebase-firestore.js"
     ></script>
-    <script defer src="./Firestore.js"></script>
-    <script defer type="module" src="./Choppies.js"></script>
+    <script defer src="../Firestore.js"></script>
+    <script defer type="module" src="../Choppies.js"></script>
   </body>
 </html>

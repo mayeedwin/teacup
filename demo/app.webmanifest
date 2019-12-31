@@ -1,0 +1,25 @@
+{
+    "background_color": "#fff",
+    "display": "standalone",
+    "orientation":"portrait",
+    "theme_color": "#fff",           
+    "short_name": "Chop",
+    "name": "Chop",
+    "description": "Kenyan food!",
+    "lang": "en-US",
+"icons": [
+    {
+      "src": "images/icons/icon-144x144.png",
+      "sizes": "https://cdn.glitch.com/3c5a355a-e471-4689-a04f-a3465e1bd626%2Ficon-144x144.png?v=1569612196865",
+      "type": "image/png"
+    },
+
+    {
+      "src": "https://cdn.glitch.com/3c5a355a-e471-4689-a04f-a3465e1bd626%2Ficon-512x512.png?v=1569612119807",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+    "start_url": "./index.html",
+    "scope": "./"
+  }
