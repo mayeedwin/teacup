@@ -4,18 +4,17 @@ const list = document.querySelector(".meal-list");
 
 // create meals component
 export const Meals = doc => {
-  
   // create elements
   const meal = document.createElement("li");
   const name = document.createElement("span");
   const rating = document.createElement("span");
-  
+
   // set data-id attribute
   meal.setAttribute("data-id", doc.id);
   meal.setAttribute("class", "meal");
   name.setAttribute("class", "name");
   rating.setAttribute("class", "rating");
-
+  
   // redefine rating value and abbreviate
   let rateValue = doc.data().rating;
   let newRating = abbreviateRating(rateValue);

@@ -1,4 +1,4 @@
-## Teacupjs, a Firebase Cloud Firestore framework
+## Teacupjs, a Firebase Cloud Firestore JS Illustration
 
 ### Author : [Maye Edwin](https://twitter.com/mayeedwin1)
 

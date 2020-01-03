@@ -10,12 +10,12 @@
 "icons": [
     {
       "src": "images/icons/icon-144x144.png",
-      "sizes": "https://cdn.glitch.com/3c5a355a-e471-4689-a04f-a3465e1bd626%2Ficon-144x144.png?v=1569612196865",
+      "sizes": "https://cdn.glitch.com/071941dc-29f7-4269-b4d9-eccdc8d93ef9%2Ficon-144x144.png?v=1577784162709",
       "type": "image/png"
     },
 
     {
-      "src": "https://cdn.glitch.com/3c5a355a-e471-4689-a04f-a3465e1bd626%2Ficon-512x512.png?v=1569612119807",
+      "src": "https://cdn.glitch.com/071941dc-29f7-4269-b4d9-eccdc8d93ef9%2Ficon-512x512.png?v=1577784099817",
       "sizes": "512x512",
       "type": "image/png"
     }

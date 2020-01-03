@@ -1,22 +1,27 @@
 export let choppies = [
   {
-    name: "Fish Place",
+    name: "Fish",
     desc:
-      "Best for Ugali, Fish, Wet or Fry. We deliver and can come order and chop at our outlets from this app!"
+      "Best with Ugali, Wet or Fry. We deliver and can come order and chop at our outlets from this app!"
   },
   {
-    name: "Pilau Place",
+    name: "Pilau",
     desc:
-      "Best for Somali and Coastal dish. We deliver and can come order and chop at our outlets from this app!"
+      "Best Somali and Coastal dish. We deliver and can come order and chop at our outlets from this app!"
   },
   {
-    name: "Kuku Place",
+    name: "Kuku",
     desc:
-      "Best for Traditional Kienyeji dish. We deliver and can come order and chop at our outlets from this app!"
+      "Best Traditional Native Chicken. We deliver and can come order and chop at our outlets from this app!"
   },
   {
-    name: "Mokimo Place",
+    name: "Mokimo",
     desc:
-      "Best for Central Kenya dish. We deliver and can come order and chop at our outlets from this app!"
+      "Best Central Kenya dish. We deliver and can come order and chop at our outlets from this app!"
+  },
+  {
+    name: "Nyama",
+    desc:
+      "Kenya's Nyama Choma. We deliver and can come order and chop at our outlets from this app!"
   }
 ];
