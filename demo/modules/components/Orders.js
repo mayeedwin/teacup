@@ -23,13 +23,35 @@ export const Orders = doc => {
 
   // on clicking order, show popup to confirm
   button.addEventListener("click", event => {
-    let popup = confirm(
-      "Once you select Okay, your order will be placed and confirmed!"
-    );
-    if (popup) {
+    let table = prompt("What's your table number?");
+    let count = prompt("How many plates?");
+    let popup = confirm("Kindly confirm your order now!");
+
+    let price = doc.data().price * count;
+
+    // Add a new document with a generated id.
+    const addOrder = () => {
+      db.collection("orders")
+        .add({
+          table: table,
+          meal: doc.data().name,
+          count: count,
+          price: price,
+          timestamp: firebase.firestore.FieldValue.serverTimestamp()
+        })
+        .then(docRef => {
+          console.log("Document written with ID: ", docRef.id);
+        })
+        .catch(error => {
+          console.error("Error adding document: ", error);
+        });
+    };
+
+    if (table) {
       // show order success alert
       summary.style.display = "block";
-      summary.innerHTML = Confirm(doc);
+      summary.innerHTML = Confirm(doc, table, count, price);
+      addOrder();
       button.innerHTML = `<b>Ordered <i class="far fa-check-circle"></i></b>`;
       // set timer
       setTimeout(() => {

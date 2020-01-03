@@ -12,6 +12,6 @@ export const Conditional = () => {
     orderList.style.display = "block";
     likesBtn.setAttribute("selected", "false");
     orderBtn.setAttribute("selected", "true");
-    guide.innerHTML = `Pickup point is at <b>Yaya Centre</b> only!`;
+    guide.innerHTML = `Order and pay with cash from your table!`;
   });
 };
