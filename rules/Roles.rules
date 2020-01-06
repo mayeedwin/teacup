@@ -1,0 +1,10 @@
+service cloud.firestore {
+      match /databases/{database}/documents {
+        match / posts/{post} {
+          allow read;
+          allow write : if get(/databases/$(database)/documents/users/$(request.auth.uid))
+          .data.isAdmin == true;
+          }
+      }
+    }
+    
