@@ -26,7 +26,7 @@ export const Orders = doc => {
     let table = prompt("What's your table number?");
     let count = prompt("How many plates?");
     let popup = confirm("Kindly confirm your order now!");
-
+    
     let price = doc.data().price * count;
 
     // Add a new document with a generated id.
